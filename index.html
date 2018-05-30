@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>Fresh Prince</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>Fresh Prince</h1>
+
+<div class="data">
+
+    <p class="instructions">
+      Enter a value into each field. Then click 'Make Story' to read a funny story.
+    </p>
+
+    <form>
+      Noun <input type="text" id='noun1'> <br>
+      Proper Noun <input type="text" id='proper_noun1'> <br>
+      Proper Noun <input type="text" id='proper_noun2'> <br>
+      Verb <input type="text" id='verb1'> <br>
+      Verb <input type="text" id='verb2'> <br>
+      Verb <input type="text" id='verb3'> <br>
+      Verb <input type="text" id='verb4'> <br>
+      Noun <input type="text" id='noun4'> <br>
+      Noun <input type="text" id='noun5'> <br>
+      Noun <input type="text" id='noun6'> <br>
+      Proper Noun <input type="text" id='proper_noun1'> <br>
+      Adjective <input type="text" id='adjective1'> <br>
+      Noun <input type="text" id='noun7'> <br>
+      Proper Noun <input type="text" id='proper_noun1'> <br>
+      Proper Noun <input type="text" id='proper_noun1'> <br>
+    </form>
+    <form>
+      <input type="button" onclick="makeStory()" value="Make Story">
+    </form>
+
+
+</div>
+
+<div class="story">
+    <h2 id="Fresh Prince"></h2>
+
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+    <p id="paragraph3"></p>
+</div>
+<script src="story_maker.js"></script>
+
+</body>
+</html>
